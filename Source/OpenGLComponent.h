@@ -40,6 +40,9 @@ private:
     
     std::vector<Vertex> vertexBuffer;
     std::vector<unsigned int> indexBuffer;
+
+    GLuint vertexBufferID;
+    GLuint indexBufferID; 
     OpenGLContext openGLContext;
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OpenGLComponent)
